@@ -34,33 +34,33 @@ public:
         setAllTime = currentTime++;
     }
 };
-
-int main() {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
-    int N = 0;
-    cin >> N;
-
-    int opt = 0, x = 0, y = 0;
-
-    HashMap myMap;
-
-    while (N--) {
-        cin >> opt;
-        if (opt == 1) {
-            cin  >> x >> y;
-            myMap.put(x, y);
-        }
-        else if (opt == 2) {
-            cin >> x;
-            cout << myMap.get(x) << endl;
-        }
-        else if (opt == 3) {
-            cin >> x;
-            myMap.setAll(x);
-        }
-        else;
-    }
-}
+//
+// int main() {
+//     ios::sync_with_stdio(false);
+//     cin.tie(nullptr);
+//
+//     int N = 0;
+//     cin >> N;
+//
+//     int opt = 0, x = 0, y = 0;
+//
+//     HashMap myMap;
+//
+//     while (N--) {
+//         cin >> opt;
+//         if (opt == 1) {
+//             cin  >> x >> y;
+//             myMap.put(x, y);
+//         }
+//         else if (opt == 2) {
+//             cin >> x;
+//             cout << myMap.get(x) << endl;
+//         }
+//         else if (opt == 3) {
+//             cin >> x;
+//             myMap.setAll(x);
+//         }
+//         else;
+//     }
+// }
 // 64 位输出请用 printf("%lld")

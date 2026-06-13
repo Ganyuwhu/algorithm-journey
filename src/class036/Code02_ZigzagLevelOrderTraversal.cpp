@@ -54,6 +54,7 @@ public:
             reverse(result[i].begin(), result[i].end());
         }
         return result;
+    }
 
 
     void dfs(TreeNode* root, int depth, vector<vector<int>>& result) {
